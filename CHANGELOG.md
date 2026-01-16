@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.0...v1.0.1) (2026-01-16)
+
+
+### Bug Fixes
+
+* changing main directory in package to solve import issues ([acf7630](https://github.com/NicolasOmar/react-key-generator/commit/acf7630d1d39afd05e65f5d42cf64cd5fe59735a))
+
 # 1.0.0 (2026-01-16)
 
 
