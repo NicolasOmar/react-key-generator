@@ -118,7 +118,7 @@ describe('generateKey', () => {
 
   test('should handle when crypto.getRandomValues returns 0', () => {
     const getRandomValuesSpy = vi.spyOn(window.crypto, 'getRandomValues')
-    getRandomValuesSpy.mockImplementation((arr) => {
+    getRandomValuesSpy.mockImplementation(arr => {
       if (arr instanceof Uint32Array) {
         arr[0] = 0
       }
@@ -134,7 +134,7 @@ describe('generateKey', () => {
 
   test('should handle with maximum uint32 value', () => {
     const getRandomValuesSpy = vi.spyOn(window.crypto, 'getRandomValues')
-    getRandomValuesSpy.mockImplementation((arr) => {
+    getRandomValuesSpy.mockImplementation(arr => {
       if (arr instanceof Uint32Array) {
         arr[0] = 0xffffffff
       }
