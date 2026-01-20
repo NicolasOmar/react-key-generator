@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.1...v1.0.2) (2026-01-20)
+
+
+### Bug Fixes
+
+* adding unit tests with coverage and pipeline for readme ([36b962e](https://github.com/NicolasOmar/react-key-generator/commit/36b962e9ac472d232f0de1db835fc22550e31c02))
+
 ## [1.0.1](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.0...v1.0.1) (2026-01-16)
 
 
