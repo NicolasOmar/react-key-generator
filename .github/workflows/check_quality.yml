@@ -1,0 +1,33 @@
+name: Check code quality
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  codecovAndSonarcloud:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 1/5 | Checkout repo
+      uses: actions/checkout@v6
+      with:
+        # Disabling shallow clone is recommended for improving relevancy of reporting
+        fetch-depth: 0
+    - name: 2/5 | Setup Node environment
+      uses: actions/setup-node@v6
+      with:
+        node-version: 'latest'
+    - name: 3/5 | Install depedencies
+      run: npm ci
+    - name: 4/5 | Run unit tests suite
+      run: npm run test:ci
+    - name: 5/5 | Run Codecov Uploader
+      uses: codecov/codecov-action@v5
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        slug: NicolasOmar/react-key-generator
+        flags: unittests
+        fail_ci_if_error: true
+        verbose: true

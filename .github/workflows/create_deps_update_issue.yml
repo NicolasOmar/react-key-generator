@@ -1,7 +1,7 @@
 name: Create weekly updates reminder
 on:
   schedule:
-    - cron: '00 10 * * 0'
+    - cron: '40 10 * * 0'
 
 jobs:
   create_issue:
@@ -53,7 +53,7 @@ jobs:
 
             - [ ] Run the script for the update and wait until the new installed versions. `npm run update`.
             - [ ] Check build process runs without stoppers. `npm run build`.
+            - [ ] Check test runs without stoppers. `npm run test`.
             - [ ] Create the branch and PR associated with the abovementioned changes.
-            - [ ] Wait until PR-related workflows run OK.
           PINNED: false
           CLOSE_PREVIOUS: false

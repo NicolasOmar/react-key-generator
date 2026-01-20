@@ -23,8 +23,8 @@ Now, I decided to create a simple but effective generator method that can be ins
 [![Npm Version][badge-npm-version]][link-npm]
 [![Npm Bundle Size][badge-npm-size]][link-npm]
 [![Npm Downloads][badge-npm-downloads]][link-npm-downloads]
-<!-- [![Netlify Status][badge-netlify-status]][link-netlify-status]
 [![Code Coverage][badge-code-coverage]][link-code-coverage]
+<!-- [![Netlify Status][badge-netlify-status]][link-netlify-status]
 [![Quality Gate Status][badge-soundcloud-quality]][link-soundcloud-status]
 [![Maintainability Rating][badge-soundcloud-maintanibility]][link-soundcloud-status]
 [![Security Rating][badge-soundcloud-security]][link-soundcloud-status]
@@ -37,14 +37,14 @@ Now, I decided to create a simple but effective generator method that can be ins
 [![Contributor Covenant][badge-code-of-conduct]][link-code-of-conduct]
 
 [badge-npm-version]: https://img.shields.io/github/package-json/v/nicolasomar/react-key-generator?label=npm%20version&logo=npm&labelColor=535353&color=success&style=flat
-[badge-npm-size]: https://img.shields.io/bundlephobia/min/react-key-generator?label=bundle%20size&labelColor=535353&logo=npm&style=flat
+[badge-npm-size]: https://img.shields.io/bundlephobia/min/@nicolasomar/react-key-generator?label=bundle%20size&labelColor=535353&logo=npm&style=flat
 [badge-npm-downloads]: https://img.shields.io/npm/dm/@nicolasomar/react-key-generator?label=downloads&labelColor=535353&style=flat&logo=npm
 [link-npm]: https://www.npmjs.com/package/@nicolasomar/react-key-generator
 [link-npm-downloads]: https://www.npmjs.com/package/@nicolasomar/react-key-generator?activeTab=versions
-<!-- [badge-netlify-status]: https://api.netlify.com/api/v1/badges/3101f2b5-0e28-4734-b749-ebb0e3e413c6/deploy-status
-[link-netlify-status]: https://app.netlify.com/sites/reactivebulma/deploys
 [badge-code-coverage]: https://img.shields.io/codecov/c/github/nicolasomar/react-key-generator?label=coverage&labelColor=535353&logo=codecov&style=flat
 [link-code-coverage]: https://app.codecov.io/gh/NicolasOmar/react-key-generator
+<!-- [badge-netlify-status]: https://api.netlify.com/api/v1/badges/3101f2b5-0e28-4734-b749-ebb0e3e413c6/deploy-status
+[link-netlify-status]: https://app.netlify.com/sites/reactivebulma/deploys
 [badge-soundcloud-quality]: https://sonarcloud.io/api/project_badges/measure?project=NicolasOmar_react-key-generator&metric=alert_status
 [badge-soundcloud-maintanibility]: https://sonarcloud.io/api/project_badges/measure?project=NicolasOmar_react-key-generator&metric=sqale_rating
 [badge-soundcloud-security]: https://sonarcloud.io/api/project_badges/measure?project=NicolasOmar_react-key-generator&metric=security_rating
@@ -65,8 +65,10 @@ Now, I decided to create a simple but effective generator method that can be ins
 
 ## Project Stack
 ![typescript dependency][badge-dependency-typescript]
+![vitest dependency][badge-dependency-vitest]
 
 [badge-dependency-typescript]: https://img.shields.io/github/package-json/dependency-version/nicolasomar/react-key-generator/dev/typescript/main?logo=typescript
+[badge-dependency-vitest]: https://img.shields.io/github/package-json/dependency-version/nicolasomar/react-key-generator/dev/vitest/main?logo=vitest
 
 ## Quick start
 Several quick start options are available:
