@@ -37,7 +37,7 @@
     "lint": "eslint --max-warnings 0 *.ts",
     "prettier": "prettier --check *.ts",
     "prettier:fix": "prettier --write *.ts",
-    "update": "ncu -i --format group --doctor --doctorTest 'npm run check:project'",
+    "update": "ncu -i --format group --peer --doctor --doctorTest 'npm run check:project'",
     "check:project": "npm run prettier && npm run lint && npm run build && npm run test:ci"
   },
   "devDependencies": {
