@@ -1,3 +1,11 @@
+## [1.0.9](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.8...v1.0.9) (2026-04-06)
+
+
+### Bug Fixes
+
+* updating dependencies ([5eda981](https://github.com/NicolasOmar/react-key-generator/commit/5eda981ee5fce08399b3272fd6463ae538b05d8c))
+* updating other dependencies ([a83ae1a](https://github.com/NicolasOmar/react-key-generator/commit/a83ae1a4ff0d2d679fefdb068853145d63fe8a0c))
+
 ## [1.0.8](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.7...v1.0.8) (2026-03-23)
 
 
