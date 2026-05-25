@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.9...v1.0.10) (2026-05-25)
+
+
+### Bug Fixes
+
+* Merge pull request [#63](https://github.com/NicolasOmar/react-key-generator/issues/63)/[#62](https://github.com/NicolasOmar/react-key-generator/issues/62) from NicolasOmar/check-weekly-dependency-updates-26-05-25 ([3fdaf02](https://github.com/NicolasOmar/react-key-generator/commit/3fdaf027e0c9ca71ace1a06d4dd6bbb79fdff355))
+
 ## [1.0.9](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.8...v1.0.9) (2026-04-06)
 
 
