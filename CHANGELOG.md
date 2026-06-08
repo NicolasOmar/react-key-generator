@@ -1,3 +1,11 @@
+## [1.0.11](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.10...v1.0.11) (2026-06-08)
+
+
+### Bug Fixes
+
+* updating codecov task ([f2f39e5](https://github.com/NicolasOmar/react-key-generator/commit/f2f39e5bb55bcc5b1d4f64b7a70079f8cbcb8f89))
+* updating dependencies ([b21168e](https://github.com/NicolasOmar/react-key-generator/commit/b21168eafe90b4d15e9c597e745749158a4d3063))
+
 ## [1.0.10](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.9...v1.0.10) (2026-05-25)
 
 
