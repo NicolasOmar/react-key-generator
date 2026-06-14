@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.11...v1.0.12) (2026-06-14)
+
+
+### Bug Fixes
+
+* updating eslint depdendencies ([ba615ad](https://github.com/NicolasOmar/react-key-generator/commit/ba615ad9f30389134efd36abe8d4d7f79887fd10))
+
 ## [1.0.11](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.10...v1.0.11) (2026-06-08)
 
 
