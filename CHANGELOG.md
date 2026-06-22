@@ -1,3 +1,12 @@
+## [1.0.13](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.12...v1.0.13) (2026-06-22)
+
+
+### Bug Fixes
+
+* adding audit fixes ([eb9c3d3](https://github.com/NicolasOmar/react-key-generator/commit/eb9c3d33fd77a0cb17769566800b46f52082136b))
+* updating eslint depdendencies ([9784d52](https://github.com/NicolasOmar/react-key-generator/commit/9784d5223268dcf26be039a13c320b70d4421766))
+* updating workflow tasks ([3e3156f](https://github.com/NicolasOmar/react-key-generator/commit/3e3156f88575ddf51eb4736aa4eb4fea58e28932))
+
 ## [1.0.12](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.11...v1.0.12) (2026-06-14)
 
 
