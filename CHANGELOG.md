@@ -1,3 +1,11 @@
+## [1.0.14](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.13...v1.0.14) (2026-07-12)
+
+
+### Bug Fixes
+
+* adding sonarqube configuration for integration ([d7515e6](https://github.com/NicolasOmar/react-key-generator/commit/d7515e63c6ecce538834ea5db4bf7a8f342458c3))
+* updating dependencies ([9eafa9c](https://github.com/NicolasOmar/react-key-generator/commit/9eafa9c976c03fb1826b5615dff3fd66cc949c4a))
+
 ## [1.0.13](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.12...v1.0.13) (2026-06-22)
 
 

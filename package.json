@@ -1,6 +1,6 @@
 {
   "name": "@nicolasomar/react-key-generator",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "type": "module",
   "description": "A generator of random React keys using window.crypto",
   "keywords": [
