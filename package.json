@@ -31,14 +31,15 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "test": "vitest",
+    "test": "vitest --config configs/vitest.config.ts",
     "test:coverage": "npm test -- --coverage",
-    "lint": "eslint --max-warnings 0 *.ts",
-    "format": "prettier --write *.ts",
-    "format:check": "prettier --check *.ts",
+    "lint": "eslint --config configs/eslint.config.mjs --max-warnings 0 *.ts",
+    "format:base": "prettier --config configs/.prettierrc *.ts",
+    "format": "npm run format:base -- --write",
+    "format:check": "npm run format:base -- --check",
     "update": "ncu -i --format group --peer --doctor --doctorTest 'npm run check:project'",
     "check:project": "npm run format:check && npm run lint && npm run build && npm run test",
-    "publish": "semantic-release"
+    "publish": "semantic-release --extends ./configs/release.config.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
