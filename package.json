@@ -1,7 +1,6 @@
 {
   "name": "@nicolasomar/react-key-generator",
   "version": "1.0.14",
-  "type": "module",
   "description": "A generator of random React keys using window.crypto",
   "keywords": [
     "react",
@@ -23,6 +22,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -31,14 +31,14 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "publish": "semantic-release",
     "test": "vitest",
-    "test:ci": "npm test -- --coverage",
+    "test:coverage": "npm test -- --coverage",
     "lint": "eslint --max-warnings 0 *.ts",
-    "prettier": "prettier --check *.ts",
-    "prettier:fix": "prettier --write *.ts",
+    "format": "prettier --write *.ts",
+    "format:check": "prettier --check *.ts",
     "update": "ncu -i --format group --peer --doctor --doctorTest 'npm run check:project'",
-    "check:project": "npm run prettier && npm run lint && npm run build && npm run test:ci"
+    "check:project": "npm run format:check && npm run lint && npm run build && npm run test",
+    "publish": "semantic-release"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -53,12 +53,12 @@
     "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
     "jsdom": "^29.1.1",
-    "lint-staged": "^17.0.8",
+    "lint-staged": "^17.1.0",
     "npm-check-updates": "^22.2.9",
     "prettier": "^3.9.5",
-    "semantic-release": "^25.0.6",
+    "semantic-release": "^25.0.8",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.63.0",
+    "typescript-eslint": "^8.64.0",
     "vitest": "^4.1.10"
   }
 }
