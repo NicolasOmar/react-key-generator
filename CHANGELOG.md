@@ -1,3 +1,11 @@
+## [1.0.19](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.18...v1.0.19) (2026-08-16)
+
+
+### Bug Fixes
+
+* update package dependencies ([7a73423](https://github.com/NicolasOmar/react-key-generator/commit/7a73423a4d2cb7a9f81b6251b86af1441c41664e))
+* workflows have been unified in a single multi step ([9aeb76f](https://github.com/NicolasOmar/react-key-generator/commit/9aeb76f1ab0dadae2afc33bbb111bd4da9c6be11))
+
 ## [1.0.18](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.17...v1.0.18) (2026-08-10)
 
 
