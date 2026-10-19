@@ -1,3 +1,12 @@
+## [1.0.25](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.24...v1.0.25) (2026-10-19)
+
+
+### Bug Fixes
+
+* minor version updated ([1de61e5](https://github.com/NicolasOmar/react-key-generator/commit/1de61e57ad829e8f18947c4cf22e57da28268251))
+* patch version updated ([87b8ab7](https://github.com/NicolasOmar/react-key-generator/commit/87b8ab7e0c24d5d304e328d1bcaf53ee64317e00))
+* update npm audit warnings ([a796d2b](https://github.com/NicolasOmar/react-key-generator/commit/a796d2bd9dfa331e34f377a0978bb202f5e72217))
+
 ## [1.0.24](https://github.com/NicolasOmar/react-key-generator/compare/v1.0.23...v1.0.24) (2026-09-28)
 
 
